@@ -86,16 +86,47 @@
 }
 /* header part end */
 
+/* company-logo part start */
 
+.company-logo{
+    margin-top: 150px;
+    width: 1110px;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-self: center;
+    border-top:2px solid rgba(192, 204, 218, 0.1);
+    border-bottom:2px solid rgba(192, 204, 218, 0.1);
+}
+.compay-img{
+    margin-top:45px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+}
 
 /*-----meduia------------*/
 
 @media (max-width: 576px) {
-    .navbar {
+    .navbar{
         flex-direction: column;
         align-items: flex-start;
     }
+    
+    .company-logo {
+        flex-direction: column; 
+        margin-top: 50px; 
+        width: 100%; 
+    }
 
+    .company-img {
+        margin-top: 20px; 
+        margin-left: 0; 
+    }
+
+    
     .navbar ul {
         flex-direction: column;
         width: 100%;
@@ -153,4 +184,16 @@
         width: 80%;
 
     }
+    .company-logo {
+        flex-direction: column; 
+        margin-top: 50px; 
+        width: 100%; 
+    }
+
+    .company-img {
+        margin-top: 20px; 
+        margin-left: 0; 
+    }
+
+
 }

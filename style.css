@@ -105,8 +105,70 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 50px;
+    gap: 10PX;
 }
 
+/* Popular-Collection part style start */
+
+.card-section{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.div-1{
+    margin:12px ;
+}
+.card-section h1{
+    text-align: center;
+    color:rgb(58, 58, 58) ;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.card-img-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+} 
+.card-img{
+    width: 329px;
+    height: 476px;
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.div-img img{
+    width: 100%;
+    height: 256px;
+}
+
+.card-img h3{
+    font-weight: 500;
+    font-size: 1.70rem;
+    color:rgb(24, 25, 31) ;
+    margin-top:-6px ;
+}
+.card-img h4{
+    font-weight: 400;
+    font-size: 1.40rem;
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: -5px;
+}
+
+.card-img i{
+    color:rgb(251, 130, 0) ;
+    margin-top: -10px;
+}
+
+.card-img p{
+    color: grey;
+    margin-top: -8px;
+}
+/* company section end */
 /*-----meduia------------*/
 
 @media (max-width: 576px) {

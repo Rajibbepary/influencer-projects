@@ -210,6 +210,44 @@
     border-radius: 4px;
 }
 
+.footer{
+    width: 1240px;
+    height: 250px;
+    margin-top: 100px;
+    background-color:#131212;
+    /* text-align: center;*/
+} 
+.footer-div{
+    color: aliceblue;
+    text-align: center;
+}
+
+.div-01{
+    padding:15px ;
+}
+.footer-div h3{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-div h5 p{
+    color: rgb(217, 219, 225);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer-icon{
+    font-size: 1.50rem;
+    padding: 0px 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+
 
 
 /* company section end */
@@ -297,6 +335,12 @@
         width: 100%;
         margin-left: 0;
     }
+
+    .footer {
+        width: 100%;
+        margin-top: 500px;
+        margin-right: -20px;
+    }
 }
 
     
@@ -345,6 +389,10 @@
         width: 100%;
         margin-left: 0;
     }
-
+    .footer {
+        width: 100%;
+        margin-top: 500px;
+        margin-right: -20px;
+    }
 
 }
